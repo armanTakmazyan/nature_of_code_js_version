@@ -1,5 +1,6 @@
 import {
-  accelrationTowardsTheMouse,
+  accelerationTowardsTheMouseArrayOfMovers,
+  accelerationTowardsTheMouse,
   drawVectorMagnitude,
   drawMover
 } from "./examples";
@@ -9,7 +10,8 @@ import {
     window.requestAnimationFrame(main);
     drawVectorMagnitude();
     drawMover();
-    accelrationTowardsTheMouse();
+    accelerationTowardsTheMouse();
+    accelerationTowardsTheMouseArrayOfMovers();
   }
   main(); // Start the cycle
 })();
