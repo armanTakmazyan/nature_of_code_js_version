@@ -66,3 +66,7 @@ Vector2D.prototype.normalize = function () {
   this.y /= magnitude;
   return this;
 };
+
+Vector2D.prototype.dot = function (vector) {
+  return this.x * vector.x + this.y * vector.y;
+};
